@@ -50,8 +50,8 @@ CREATE TABLE flights (
     id SERIAL PRIMARY KEY,
     origin VARCHAR(100) NOT NULL,
     destination VARCHAR(100) NOT NULL,
-    departure_time TIMESTAMP NOT NULL,
-    arrival_time TIMESTAMP NOT NULL,
+    departure_time VARCHAR(100) NOT NULL,
+    arrival_time VARCHAR(100) NOT NULL,
     status VARCHAR(20) NOT NULL
 );
 ```
